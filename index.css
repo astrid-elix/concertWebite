@@ -1,0 +1,197 @@
+.main-head{
+
+
+    
+
+height: 97vh;
+width: 100vh;
+/* border: 2px solid rgb(78, 78, 78); */
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+body{
+    color: white;
+margin: 0;
+padding: 0;
+background-color: rgb(0, 0, 0);
+position: absolute;
+}
+.head-nav{
+    display: flex;
+    /* border: 1px solid white ; */
+    box-shadow: 10px 4px 10px rgba(137, 138, 138, 0.5);
+    border-radius: 0px;
+    height: 8vh;
+    padding: 20px;
+    justify-content:space-around;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+
+    width: 100vw;
+}
+.logo{
+
+    width: 70px;
+
+}
+.nav-part2{
+display: flex;
+gap: 50px;
+align-content: center;
+align-items: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.highlight-lunch{
+
+color: brown;
+}
+
+.navlinks{
+text-decoration: none;
+color: white;
+
+}
+.navlinks:hover{
+    color: rgb(219, 68, 57);
+    
+
+}
+#highlight-lunch:hover{
+    
+    color: rgb(41, 154, 173);
+}
+.main-info-concert
+{
+/* border: 2px solid white; */
+/* margin-top: 50px; */
+height: 72vh;
+width: 100vw;
+position: absolute;
+
+}
+
+
+.posterlunchbreak{
+    width: 100vw;
+    height: 84vh;
+    object-fit: cover;
+opacity: 0.8;
+}
+.luchbreakPoster{
+/* border: 5px solid white; */
+width: 100vw;
+    height: 84vh;
+    opacity: 0.4;
+}
+
+.main-info-concert2
+{
+height: 84vh;
+width: 100vw;
+position: relative;
+/* margin: 25px; */
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+box-shadow: inset -1px -20px 50px 25px  rgb(2 2 2);;
+}
+
+.concert-info-head{
+/* margin-top: 50px; */
+font-family:Permanent Marker;
+color: rgb(243, 212, 37);
+font-size: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100vw;
+}
+.concert-info-body{
+width: 70vh;
+font-family:cursive;
+color:rgb(250, 250, 250);
+}
+
+.navigate-tickiet{
+display: flex;
+/* border: 2px solid white; */
+width: 100vw;
+margin-top: 25px;
+justify-content:center;
+gap: 60vw;
+}
+
+.all-button{
+background-color: black;
+color: white;
+box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0);
+border: 1px solid gold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 8px;
+width: 80px;
+}
+.arrow-button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+}
+
+.all-button:hover{
+opacity: 0.5;
+}
+/* .arrow-button:hover{
+    opacity: 0.5;
+} */
+
+.ticket-info{
+
+display: flex;
+/* border: 2px solid white; */
+height: 30vh;
+margin-top: 25px;
+width: 100vw;
+justify-content: center;
+align-content: center;
+align-items: center;
+gap: 50px;
+}
+
+.ticket-box{
+display: flex;
+flex-direction: column;
+width: 25vw;
+height: 30vh;
+border: 2px solid gold;
+border-radius: 20px;
+background-color: rgb(253, 200, 52);
+}
+.img_ticket{
+    width: 25vw;
+height: 25vh;
+object-fit: cover;
+border-radius: 20px;
+}
+.ticket-img{
+    height: 25vh;
+    
+}
+.ticket-info-state{
+
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 25vw;
+height: 5vh;
+color: black;
+font-family: cursive;
+}
